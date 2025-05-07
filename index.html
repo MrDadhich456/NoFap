@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>NoFap Tracker</title>
+</head>
+<body>
+  <div class="app">
+    <h1>NoFap Streak Tracker</h1>
+    <p id="streak">Streak: 0 days</p>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+    <button id="resetBtn">Relapse (Reset Streak)</button>
+    <button id="shareBtn">Share My Streak</button>
+
+    <div id="milestones">
+      <h2>Milestones</h2>
+      <ul>
+        <li id="badge-1">🎉 1 Day Badge</li>
+        <li id="badge-7">🔥 7 Days Badge</li>
+        <li id="badge-25">💪 25 Days Badge</li>
+        <li id="badge-50">🧘 50 Days Badge</li>
+        <li id="badge-90">🦾 90 Days Badge</li>
+      </ul>
+    </div>
+
+    <div id="goal-section">
+      <h2>Set Custom Goal</h2>
+      <input type="number" id="goalInput" placeholder="Enter days" />
+      <button id="setGoalBtn">Set Goal</button>
+      <p id="goalDisplay"></p>
+    </div>
+
+    <div id="journal">
+      <h2>Daily Journal</h2>
+      <textarea id="journalInput" rows="4" placeholder="Write something..."></textarea>
+      <button id="saveJournalBtn">Save Entry</button>
+      <ul id="journalList"></ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

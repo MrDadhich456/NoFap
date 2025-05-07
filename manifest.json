@@ -1,0 +1,16 @@
+{
+    "name": "NoFap Tracker",
+    "short_name": "NoFap",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#111111",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+  
